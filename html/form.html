@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"> <!--by default input type is text, so we can skip this-->
+    <br>
+    <br>
+    <input type="text" placeholder="Enter your name" maxlength="10">
+    <br>
+    <br>
+    <input type="password" placeholder="Password">
+    <br>
+    <br>
+    <input type="number">
+    <br>
+    <br>
+    <input type="date">
+    <br>
+    <br>
+    <input type="file">
+    <br>
+    <br>
+    <input type="color">
+    <br>
+    <br>
+    A<input type="radio" name="q"> <!--by defining the name attribute in both the radio types it  works means now we can choose one out of many-->
+    B<input type="radio" name="q">
+    <br>
+    A<input type="radio" name="l"> <!--by defining the name attribute in both the radio types it  works means now we can choose one out of many-->
+    B<input type="radio" name="l">
+    <br>
+    <br>
+    a<input type="checkbox" name="a"> <!--many out of many-->
+    b<input type="checkbox" name="a">
+    <br>
+    <br>
+    <select>
+        <option>One</option>
+        <option>Two</option>
+        <option>Three</option>
+    </select>
+    <br>
+    <br>
+    <select>
+        <option>One</option>
+        <option selected>Two</option> <!--selected is a property not an attribute this gives the default selection-->
+        <option>Three</option>
+    </select>
+    <br>
+    <br>
+    <select multiple>
+        <option>One</option> <!--selected can be use in multiple selection as well-->
+        <option>Two</option>
+        <option>Three</option>
+    </select>
+    <br>
+    <br>
+    <input type="email">
+    <br>
+    <br>
+    <input type="url">
+    <button style="cursor: pointer;">click me</button>
+    <input name="somename"
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "6"
+     /> 
+     <!-- no need of this js we can only use maxlength attribute -->
+</body>
+</html>
