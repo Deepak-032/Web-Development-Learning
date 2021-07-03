@@ -1,0 +1,25 @@
+ul > li{ /* li which is direct child of ul */
+    color: rgb(16, 204, 204);
+}
+ul ul{ 
+    font-style: italic;
+}
+ol li{ /* this will select the child */
+    font-weight: 900;
+}
+ol + ul{ /* to exactly next sibling if there is anything in between style will not apply */
+    background-color: rgb(49, 49, 49);
+} /* it applies to just single one in the list of siblings */
+ol ~ ul{ /*to next sibling which ul to ol need not to be exactly next */
+    /* background-color: darkmagenta; */
+} /* it applies to the multiple in the list */
+/* some will select the siblings vs some will childrens */
+ul + ol{
+    font-style: italic;
+}
+p > p{
+    background-color: royalblue;
+}
+div > div{
+    background-color: royalblue;
+}

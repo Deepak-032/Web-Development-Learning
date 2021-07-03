@@ -1,0 +1,26 @@
+body{
+    background-color: cadetblue;
+}
+.div1{
+    outline: khaki solid 5px;
+    margin:30px;
+    display: flex;
+    align-items:center;
+    flex-direction: row; /* row is by default */
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: crimson;
+}
+p{
+    margin: auto;
+    font-size: 20px;
+    background-color: ivory;
+    padding: 5px;
+}
+#p1{
+    order: 1;
+}
+#p4{
+    order: -1;
+}
+/* there is no way in css to directly center align anything vertically */

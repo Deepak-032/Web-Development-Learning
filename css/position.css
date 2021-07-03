@@ -1,0 +1,30 @@
+div{
+    background-color: lightseagreen;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#div2{
+    /* position: static; by default position is static so no change */
+    /* position: relative;
+    bottom: -100px; */
+    /* position: fixed;
+    top: 10px;
+    left: 10px; */
+    position: static;
+}
+#div3{
+    position: absolute;
+    /* it will fix itself with its parent, if there is no parent element then it will get fixed 
+    with the body at this point absolute and fixed are kind of similar */
+    /* position: static; */
+    top: 0px;
+}
+#div1{
+    position: sticky;  
+    top: 0px;
+}
+/* sticky will only work for the most outer div and not the inner ones */
+
+/* the difference between relative and absolute is that in relative the space occupied by the element will not lost
+while in absolute the space gets lost */

@@ -1,0 +1,38 @@
+p{
+    background-color: darkslategrey;
+}
+b{
+    background-color: darkturquoise;
+}
+div{
+    /* background-color: darkturquoise; */
+    display: inline-block;
+    padding: 10px;
+}
+span{
+    background-color: cadetblue;
+    display: block;
+}
+ul{
+    position: absolute;
+    margin: 0px;
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    width: 72px;
+    background-color: darkgray;
+    display: none;
+}
+li{
+    padding: 10px;
+}
+div:hover ul{
+    display: block;
+}
+div:hover{
+    background-color: darkgray;
+}
+li:hover{
+    background-color: dimgrey;
+}

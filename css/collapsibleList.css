@@ -1,0 +1,14 @@
+ul{
+    color: rgb(50, 34, 158);
+}
+ul ul{
+    color: darkred;
+    display: none;
+}
+ul ul ul{
+    color: cyan;
+}
+li:hover > ul
+{ /*there should be no space between li:hover */
+    display: block;
+}/* hover li here space operator means decendent not child */

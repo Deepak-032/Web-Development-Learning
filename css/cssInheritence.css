@@ -1,0 +1,21 @@
+*{
+    background-color: cyan;
+}
+.dv1{
+    background-color: rgb(105, 105, 200);
+}
+div{
+    background-color: darkgreen;
+}
+#id1{
+    background-color: darksalmon;
+}
+/* id take precedence over class and class take precedence over element and element take precedence over * */
+/* id>class>element>* */
+/* but if same id will be assigend again a style then the latter one will take the precedence */
+#id1{
+    background-color: darkslategrey;
+}
+/* there is no difference between the 3 ways in which the style can be defined
+only the point is the one that is defined latter on will take precedence over the other */
+/* inline style will take precedence over anything and everything else */

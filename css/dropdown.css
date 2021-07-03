@@ -1,0 +1,36 @@
+div{
+    display: inline-block;
+    padding: 10px;
+    width: 130px;
+}
+span{
+    background-color: cadetblue;
+    display: block;
+}
+ul{
+    position: absolute;
+    margin: 0px;
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    width: 150px;
+    background-color: darkgray;
+    display: none;
+}
+li{
+    padding: 10px;
+}
+div:hover ul{
+    display: block;
+}
+div:hover{
+    background-color: darkgray;
+    color: rgb(29, 29, 153);
+}
+li:hover{
+    background-color: dimgrey;
+}
+a:hover{
+    color: rgb(29, 29, 153);
+}

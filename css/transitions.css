@@ -1,0 +1,17 @@
+div{
+    margin: 90px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+div:hover{
+    background-color: royalblue;
+    height: 0px;
+    transition: background-color 2s, height 4s;
+}
+div:hover +div{
+    background-color: yellow;
+    width:0px;
+    height: 0px;
+    transition: width 3s, height 3s, background 2s;
+}

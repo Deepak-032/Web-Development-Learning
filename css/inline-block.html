@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: blueviolet;
+            display: inline;
+            margin-top: 100px; /* this does nothave any effect*/
+            padding: 50px;
+        }
+        #div2{
+            background-color: blueviolet;
+            display: inline-block;
+            /* margin-top: 100px; */ /* this works here */
+            padding: 50px;
+        }
+        #id1{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">this is inline div</div>
+    <p>The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside.</p>
+    <div id="div1">this is inline div</div>
+    <div id="div1">this is inline div</div>
+    <div id="id1">this is another div</div>
+    <p>The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside.</p>
+    <div id="div2">this is inline-block div</div>
+    <div id="div2">this is inline-block div</div>
+    <p>The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside. These are demonstrated below with the padding removed from the lists and a left red border added:The list-style-position property defines where to position the list marker, and it accepts one of two values: inside or outside.</p>
+    <!-- thus where we have to play with paddings and margins
+    use "inline-block" whereas where we have to just inline the text only with its 
+    original properties use "inline" -->
+</body>
+</html>

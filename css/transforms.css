@@ -1,0 +1,14 @@
+div{
+    margin: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: slateblue;
+    /* transform: scale(2); */
+    /* transform: translate(30px,-60px); */
+    /* transform: skew(10deg, 0deg); */
+    /* transform: skewX(10deg); */
+    /* transform: rotate(80deg); */
+    /* transform: rotateZ(60deg); */
+}
+
+/* this rotates in clockwise direction */

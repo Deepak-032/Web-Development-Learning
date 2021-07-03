@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        p {
+            display: none;
+            background-color: yellow;
+            /* padding: 20px; */
+            height: 40px;
+        }
+        a :hover{
+            color: brown;
+        } /* means if we hover on child of 'a' then this must be done */
+
+        a:hover{
+            color: black;
+        } /* means if we hover on 'a' then this must be done */
+
+        a+:hover{
+            background-color: blue;
+        }
+        /* div:hover #id1 {
+            display: block;
+        }
+
+        span:hover #id2 {
+            display: block;
+        }
+        div:hover #d1{
+            display: block;
+        }
+        p:hover +p{
+            display: block;
+        }  */
+        h1:hover~#de{
+            display: block;
+        }
+        p:hover~#de1{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>Heading 1
+            <p id="d1">cdvbne</p>
+            <p>cdvbne</p>
+    </div>
+    <div>Hover over me to show the p element
+        <span>
+            <p id="id1">Tada! Here I am!</p>
+            <p id="id2">Tada! Here I am!</p>
+        </span>
+    </div> -->
+    <h1>Heading 1</h1>
+    <p id="de">cdvbne</p>
+    <p id="de1">cdvbne</p>
+
+    <a href="">this is link
+        <span>this is little span</span>
+    </a>
+    <div>this is little div</div>
+</body>
+
+</html>
+
+
+<!-- a:hover and  a :hover both have the different meanings -->

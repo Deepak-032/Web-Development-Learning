@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dv{
+            margin: 50px;
+            height: 80px;
+            width: 80px;
+            background-color: grey;
+        }
+        div{
+            /* margin: 50px; */
+            height: 80px;
+            width: 80px;
+            /* background-color: hotpink; */
+        }
+        #d1:hover{
+            height: 120px;
+            width: 120px;
+            transition: width 1s, height 1s, top 0ms;
+            position: relative;
+            top: -20px;
+        }
+        #d2{
+            position: relative;
+            top: -20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="dv"></div>
+    <div>
+        <div class="dv" id="d1"></div>
+    </div>
+    <div class="dv"></div>
+    <div><div class="dv" id="d2"></div></div>
+</body>
+</html>
