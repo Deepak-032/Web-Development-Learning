@@ -8,6 +8,7 @@ let Food = [
 ]
 
 function isVeg(Food){
+    // console.log(Food.indexOf("Chicken"))
     if(Food.indexOf("Chicken")!=-1) return false
     if(Food.indexOf("Egg")!=-1) return false
     return true
