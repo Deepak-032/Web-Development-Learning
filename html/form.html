@@ -69,7 +69,21 @@
         oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
         type = "number"
         maxlength = "6"
-     /> 
-     <!-- no need of this js we can only use maxlength attribute -->
+    />
+    <!-- If the value of the type attribute is text, email, search, password, tel, or url,
+    maxlength attribute specifies the maximum number of characters that the user can enter;
+    for other control types, it is ignored. -->
+    <!-- so need js we can only use maxlength attribute in input type number -->
+    <form oninput="result.value = Number(a.value) + Number(b.value)">
+        <input type="number" name="a"> + 
+        <input type="number" name="b"> = 
+        <output name="result" for="a b"></output>
+    </form>
+    <form oninput="console.log(range.value)">
+        <input name="range" type="range">
+    </form>
+    <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+    <output></output>
+    <input type="tel" minlength="10" maxlength="10" pattern="[7-9]{1}[0-9]{9}"/>
 </body>
 </html>
