@@ -7,6 +7,7 @@
 
 
 // uniary operator"+" tries to type cast RHS to LHS 
+// So, 1+ +"1" or 1+ (+"1") == 2
 
 // "1"+1
 // "11"
