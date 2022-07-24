@@ -1,23 +1,10 @@
 {
-    "shippingDetails": {
-        "houseNo": "#34",
-        "pincode": 135001,
-        "street": "Harbanspura colony",
-        "landmark": "near I.T.I.",
-        "city": "Yamunanagar",
-        "state": "Haryana",
-        "country": "India",
-        "phoneNo": 8929348212
-    },
-    "paymentDetails": {
-        "id": "sample payment id",
-        "status": "paid",
-        "mode": "COD"
-    },
-    "priceDetails": {
-      "sum": 789,
-      "offerPrice": 0,
-      "total": 789
-    },
-    "createdAt": "2022-07-01T00:00:00.000Z"
+    "Orders": {
+        "price" : { "int": { "min": 120, "max": 3000 } } }
+        "createdAt: {
+            "dateTime": {
+              "min": "2010-01-01T00:00:00Z",
+              "max": "2022-12-31T23:59:59Z"
+            }
+        }
 }
