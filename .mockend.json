@@ -1,5 +1,5 @@
 {
-    "Orders": {
+    "Order": {
         "price" : { "int": { "min": 120, "max": 3000 } },
         "createdAt": {
             "dateTime": {
