@@ -1,6 +1,6 @@
 {
     "Orders": {
-        "price" : { "int": { "min": 120, "max": 3000 } } }
+        "price" : { "int": { "min": 120, "max": 3000 } },
         "createdAt": {
             "dateTime": {
               "min": "2010-01-01T00:00:00Z",
